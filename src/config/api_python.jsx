@@ -2,7 +2,7 @@ import axios from "axios";
 const apiKey = import.meta.env.VITE_API_KEY;
 const getPythonData = async (query) => {
     try {
-      const response = await axios.post("https://ifapigemini2-btayhpdghseqbjag.eastus-01.azurewebsites.net/api", {
+      const response = await axios.post("https://apiflasknlp2026.onrender.com/api", {
         consulta: query
       },
       {
